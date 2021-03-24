@@ -101,8 +101,8 @@ impl Universe {
   pub fn new() -> Universe {
     utils::set_panic_hook();
 
-    let width = 80;
-    let height = 80;
+    let width = 200;
+    let height = 200;
 
     let cells: Vec<Cell> = (0..width * height)
       .map(|_| Cell::Dead)
